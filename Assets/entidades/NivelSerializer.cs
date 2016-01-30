@@ -1,12 +1,17 @@
 ﻿using System;
+using System.Xml;
+using System.Xml.Serialization;
+using System.IO;
 
-namespace AssemblyCSharp
+public class NivelSerializer
 {
-	public class NivelSerializer
+	public Niveles NivelesDeserializer(string text)
 	{
-		public NivelSerializer ()
-		{
+		using(TextReader tr = new StringReader(text)){
+			Niveles niveles;
+			XmlSerializer serializer = new XmlSerializer(typeof(Niveles));
+			niveles = (Niveles)serializer.Deserialize (tr);
+			return niveles;
 		}
 	}
 }
-

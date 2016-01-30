@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<juego>
+	<!-- Las cartas son solo orientativas, no se cargan desde el xml -->
+	<cartas>
+		<carta id="ojo" nombre="El Ojo" descripcion="representa a dios, al hijo de dios y a la sabiduría" ></carta>
+		<carta id="anillo" nombre="El Anillo" descripcion="representa el pacto, la esposa y la riqueza"></carta>
+		<carta id="montana" nombre="La Montaña" descripcion="representa algo muy grande, interminable, inamovible"></carta>
+		<carta id="pluma" nombre="La Pluma" descripcion="representa lo liviano, lo efímero"></carta>
+		<carta id="camino" nombre="El Camino Bifurcado" descripcion="representa la decisión, la duda o las opciones"></carta>
+		<carta id="espiral" nombre="La Espiral" descripcion="representa el la falta de direccion, estar perdido o el laberinto"></carta>
+		<carta id="hoja" nombre="La Hoja" descripcion="representa la naturaleza, el otoño y la vejez "></carta>
+		<carta id="sol" nombre="El Sol" descripcion="representa a dios, el verano, el calor, el fuego, la pureza, el día y la luz"></carta>
+		<carta id="cascada" nombre="La Cascada" descripcion="representa la naturaleza, fluir las cosas, el fin, la caída"></carta>
+		<carta id="flor" nombre="La Flor" descripcion="representa la primavera, la naturaleza, la mujer, el sexo, lo hermoso"></carta>
+		<carta id="circulo" nombre="El Circulo" descripcion="representa la perfección, la continuidad, lo completo y el ciclo"></carta>
+		<carta id="reloj" nombre="El Reloj" descripcion="representa el el tiempo, algo finito"></carta>
+		<carta id="calavera" nombre="El Calavera" descripcion="representa La muerte, el hambre, la peste"></carta>
+		<carta id="libro" nombre="El Libro" descripcion="representa la sabiduría y la experiencia"></carta>
+		<carta id="nieve" nombre="El Copo de Nieve" descripcion="representa el frío, el invierno, lo hermoso pero triste"></carta>
+		<carta id="copa" nombre="La Copa Rota" descripcion="representa lo inconcluso, lo fallado, lo vacío, lo infeliz, el aborto y la pérdida"></carta>
+		<carta id="osamenta" nombre="Osamenta de Ciervo" descripcion="representa lo antiguo, lo finito, la muerte, la enfermedad, el invierno, el respeto"></carta>
+		<carta id="lagrima" nombre="El Lagrima" descripcion="representa la sangre, la perdida y tristeza"></carta>
+		<carta id="moneda" nombre="La Moneda" descripcion="representa el tesoro, la riqueza y la avaricia"></carta>
+		<carta id="pez" nombre="El Pez" descripcion="representa el hambre, la comida, el mar, lo vasto y la inteligencia"></carta>
+		<carta id="manoabierta" nombre="La Mano Abierta" descripcion="representa el el hombre, los cinco, la paz, la honestidad"></carta>
+		<carta id="manoentrega" nombre="Las Manos Expuestas" descripcion="representan honestidad, amor puro, pureza, entrega y caridad"></carta>
+		<carta id="vela" nombre="La Vela Al Viento" descripcion="representa el fuego, la noche, el viento, la soledad y la adversidad"></carta>
+		<carta id="punio" nombre="El Puño" descripcion="representa la ira, la fuerza, el dolor"></carta>
+		<carta id="diente" nombre="El Diente" descripcion="representa el hambre, la enfermedad y la vejez"></carta>
+		<carta id="herradura" nombre="El Herradura" descripcion="representa la suerte, lo animal, el caballo y el transporte"></carta>
+		<carta id="rueda" nombre="La Rueda" descripcion="representa La distancia, el transporte, el progreso y el viaje"></carta>
+	</cartas>
+	<mapa>
+		<texto nivel="0" orden="0">
+			<esp>Padre, veo que ha podido ayudar a la gente de Avaritia,</esp>
+			<eng>Father, I see you've been able to help the people from Superbia,</eng>
+		</texto>
+		<texto nivel="0" orden="1">
+			<esp>pero la infelicidad de esta tierra es mucha...</esp>
+			<eng>the grief of this land is plenty...</eng>
+		</texto>	
+		
+		<texto nivel="0" orden="2">
+			<esp>Más al sur, en el pueblo de Invidia, hay otra persona que debes ver.</esp>
+			<eng>South, in the town of Avaritia, theres another person you should see.</eng>
+		</texto>
+		<texto nivel="0" orden="3">
+			<esp>Por favor ve y lleva tu rito de fe...</esp>
+			<eng>Please go and deliver the healing preach with you...</eng>
+		</texto>	
+		
+		<texto nivel="0" orden="">
+			<esp>Por favor ayudanos</esp>
+			<eng>Helps us !</eng>
+		</texto>	
+	</mapa>
+	<niveles>
+		<nivel numero="0">
+			<textointro>
+			
+			Hace unos mil años, en un mundo en donde la ignorancia y superstición eran por sobre la sabiduría, un hombre de fe caminaba los pueblos en búsqueda de posesos. Los posesos eran personas que sucumbían a los deseos indignos de la carne y el demonio.
+			
+			Esta es la historia de los 7 pueblos. Los 7 lugares donde los hombres se entregaban a todas las formas capitales de la indignidad.
+			
+			//
+			
+			Al llegar al pueblo de Avaritia, la gente se agolpa y guía al sacerdote hasta la casa del enfermo. 
+			
+			Este es un hombre muy rico que ahorra en todo y no es realmente dueño de nada.
+			Una pirámide pasaría por el ojo de una aguja antes de la salvación de este poseso. 
+
+			Murmullos y silencio acompañan el ingreso a la morada del doliente. 
+			
+			</textointro>
+			<texto>
+				<esp>Que El Señor, en su infinito poder</esp>
+				<eng>God, in its' infinite power</eng>
+			</texto>
+			<solucion>
+				<slot>
+					<carta>ojo</carta>
+					<carta>sol</carta>
+				</slot>
+				<slot>
+					<carta orden="2">espiral</carta>
+				</slot>
+				<slot>
+					<carta orden="3">punio</carta>
+				</slot>
+			</solucion>
+		</nivel>	
+
+		<nivel numero="1">
+			<textointro>
+			
+			Tu fama crece sacerdote, y en Invidia te necesitamos. Hay una mujer que no puede vivir sin codiciar. Desea todo lo que los demás.
+			Nada es suficiente y su afligido amante se arrepiente de haberla conocido. Su nombre es Flora. Pero no es bella por dentro.
+			
+			Ayudanos sacerdote, propaga tu fe y recupera a Flora de las manos del demonio.
+			
+			</textointro>
+			<texto>
+				<esp>Que El Señor, en su infinito poder</esp>
+				<eng>God, in its' infinite power</eng>
+				<solucion>
+					<slot>
+						<carta>ojo</carta>
+						<carta>sol</carta>
+					</slot>
+					<slot>
+						<carta orden="2">espiral</carta>
+					</slot>
+					<slot>
+						<carta orden="3">punio</carta>
+					</slot>
+				</solucion>
+			</texto>
+		</nivel>	
+
+		<nivel numero="2">
+			<textointro>
+			
+			En el poblado de Luxus existe una joven.  
+			
+			Famosa por la decapitación de muñecos de teatro infantil, sus dones han sido de interés de todo hombre, joven y viejo,
+			¡y las mujeres de este pueblo están desesperadas!
+			
+			Sacerdote, encuentra la combinación para regresar su virtud. 
+			Solo tu puedes hacerlo. 
+			
+			</textointro>
+			<texto>
+				<esp>Que El Señor, en su infinito poder</esp>
+				<eng>God, in its' infinite power</eng>
+			</texto>
+			<solucion>
+				<slot>
+						<carta>ojo</carta>
+						<carta>sol</carta>
+					</slot>
+					<slot>
+						<carta orden="2">espiral</carta>
+					</slot>
+					<slot>
+						<carta orden="3">punio</carta>
+					</slot>
+			</solucion>
+
+		</nivel>
+
+		<nivel numero="3">
+			<textointro>
+			
+			En las afueras de Voracitas, existe un campesino famoso. 
+			
+			Glotón por sobre todas las cosas. Lo único que sacia sus ganas de comer... es comer.
+			Su familia lo ha abandonado, o quizás se la ha comido, no se sabe. 
+			
+			Las leyes naturales no se aplican a este hombre, que evidentemente es más grande por dentro que por fuera.
+			
+			Sacerdote, ayuda con tus ritos a Porcelio, el campesino insaciable.
+			
+			</textointro>
+			<texto>
+				<esp>Que El Señor, en su infinito poder</esp>
+				<eng>God, in its' infinite power</eng>
+			</texto>
+			<solucion>
+				<slot>
+					<carta>ojo</carta>
+					<carta>sol</carta>
+				</slot>
+				<slot>
+					<carta orden="2">espiral</carta>
+				</slot>
+				<slot>
+					<carta orden="3">punio</carta>
+				</slot>
+			</solucion>
+		</nivel>
+	</niveles>
+</juego>
