@@ -31,28 +31,52 @@
 		<carta id="rueda" nombre="La Rueda" descripcion="representa La distancia, el transporte, el progreso y el viaje"></carta>
 	</cartas>
 	<mapa>
-		<texto nivel="0" orden="0">
-			<esp>Padre, veo que ha podido ayudar a la gente de Avaritia,</esp>
-			<eng>Father, I see you've been able to help the people from Superbia,</eng>
-		</texto>
-		<texto nivel="0" orden="1">
-			<esp>pero la infelicidad de esta tierra es mucha...</esp>
-			<eng>the grief of this land is plenty...</eng>
-		</texto>	
-		
-		<texto nivel="0" orden="2">
-			<esp>Más al sur, en el pueblo de Invidia, hay otra persona que debes ver.</esp>
-			<eng>South, in the town of Avaritia, theres another person you should see.</eng>
-		</texto>
-		<texto nivel="0" orden="3">
-			<esp>Por favor ve y lleva tu rito de fe...</esp>
-			<eng>Please go and deliver the healing preach with you...</eng>
-		</texto>	
-		
-		<texto nivel="0" orden="">
-			<esp>Por favor ayudanos</esp>
-			<eng>Helps us !</eng>
-		</texto>	
+		<introduccion>
+			<texto>
+				<esp>Padre, veo que ha podido ayudar a la gente de Avaritia,</esp>
+				<eng>Father, I see you've been able to help the people from Superbia,</eng>
+			</texto>
+			<texto>
+				<esp>pero la infelicidad de esta tierra es mucha...</esp>
+				<eng>the grief of this land is plenty...</eng>
+			</texto>	
+			
+			<texto>
+				<esp>Más al sur, en el pueblo de Invidia, hay otra persona que debes ver.</esp>
+				<eng>South, in the town of Avaritia, theres another person you should see.</eng>
+			</texto>
+			<texto>
+				<esp>Por favor ve y lleva tu rito de fe...</esp>
+				<eng>Please go and deliver the healing preach with you...</eng>
+			</texto>	
+			<texto>
+				<esp>Por favor ayudanos</esp>
+				<eng>Helps us !</eng>
+			</texto>
+		</introduccion>
+		<introduccion>
+			<texto>
+				<esp>Padre, SEGUNDO NIVEL</esp>
+				<eng>Father, I see you've been able to help the people from Superbia,</eng>
+			</texto>
+			<texto>
+				<esp>allalalalalalalal</esp>
+				<eng>the grief of this land is plenty...</eng>
+			</texto>	
+			
+			<texto>
+				<esp>Más al sur, en el pueblo de Invidia, hay otra persona que debes ver.</esp>
+				<eng>South, in the town of Avaritia, theres another person you should see.</eng>
+			</texto>
+			<texto>
+				<esp>Por favor ve y lleva tu rito de fe...</esp>
+				<eng>Please go and deliver the healing preach with you...</eng>
+			</texto>	
+			<texto>
+				<esp>Por favor ayudanos</esp>
+				<eng>Helps us !</eng>
+			</texto>
+		</introduccion>
 	</mapa>
 	<niveles>
 		<nivel numero="0">
