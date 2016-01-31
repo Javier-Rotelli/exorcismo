@@ -5,7 +5,6 @@ using System.Xml;
 [Serializable()]
 public class Solucion
 {
-	[System.Xml.Serialization.XmlArray("slot")]
-	[System.Xml.Serialization.XmlArrayItem("carta")]
-	public string[][] cartas;
+	[System.Xml.Serialization.XmlElement("slot")]
+	public Slot[] slots;
 }

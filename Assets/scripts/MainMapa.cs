@@ -8,7 +8,9 @@ public class MainMapa : MonoBehaviour {
 	void Awake () {
 		estado = Estado.Instance;
 
+		Debug.Log(estado.mapa.introducciones[0].textos[0].esp);
 	}
+
 	
 	// Update is called once per frame
 	void Update () {

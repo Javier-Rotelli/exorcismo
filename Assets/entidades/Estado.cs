@@ -7,6 +7,7 @@ public class Estado
 	private static object lockObject = new object();
 
 	public Niveles niveles;
+	public Mapa mapa;
 
 	private Estado (){
 		CargarRecursos ();
@@ -30,5 +31,8 @@ public class Estado
 		var nvd = new NivelSerializer ();
 		niveles = nvd.NivelesDeserializer (textAsset.text);
 
+		var mapserializer = new Mapaserializer();
+
+		mapa = mapserializer.MapaDeserializer (textAsset.text);
 	}
 }

@@ -1,12 +1,12 @@
 ﻿using System;
+using System.Xml.Serialization;
 
-namespace AssemblyCSharp
+[Serializable()]
+[XmlRoot("juego")]
+public class Mapa
 {
-	public class Mapa
-	{
-		public Mapa ()
-		{
-		}
-	}
-}
+	[XmlArray("mapa")]
+	[XmlArrayItem("introduccion", typeof(Introduccion))]
+	public Introduccion[] introducciones;
 
+}

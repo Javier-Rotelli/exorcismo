@@ -126,19 +126,19 @@
 			<texto>
 				<esp>Que El Señor, en su infinito poder</esp>
 				<eng>God, in its' infinite power</eng>
-				<solucion>
-					<slot>
-						<carta>ojo</carta>
-						<carta>sol</carta>
-					</slot>
-					<slot>
-						<carta orden="2">espiral</carta>
-					</slot>
-					<slot>
-						<carta orden="3">punio</carta>
-					</slot>
-				</solucion>
 			</texto>
+			<solucion>
+				<slot>
+					<carta>ojo</carta>
+					<carta>sol</carta>
+				</slot>
+				<slot>
+					<carta orden="2">espiral</carta>
+				</slot>
+				<slot>
+					<carta orden="3">punio</carta>
+				</slot>
+			</solucion>
 		</nivel>	
 
 		<nivel numero="2">
