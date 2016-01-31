@@ -28,13 +28,20 @@ public class MainMapa : MonoBehaviour {
 	}
 
 	void Start() {
+		empezarNivelActual ();
+	}
+
+	void empezarNivelActual ()
+	{
 		switch (estado.nivelActual) {
+		case -1:
+			procesarFinal (textoPerdiste, spritePerdiste);
+			estado.nivelActual = 0;
+			empezarNivelActual ();
+			break;
 		case 0:
 			pantallaIntro.GetComponent<CanvasGroup> ().alpha = 1;
 			pantallaIntro.GetComponent<PantallaIntro> ().enabled = true;
-			break;
-		case -1:
-			procesarFinal (textoPerdiste, spritePerdiste);
 			break;
 		case 7:
 			procesarFinal (textoGanaste, spriteGanaste);
