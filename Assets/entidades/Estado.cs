@@ -30,8 +30,13 @@ public class Estado
 		}
 	}
 
-	/*public Introduccion getIntroduccionActual() {
-	}*/
+	public Introduccion getIntroduccionActual() {
+		if (niveles.nivel [nivelActual] != null) {
+			Debug.LogFormat ("ERROR: se quiso cargar el nivel nro:{0} pero no existe. volviendo al nivel 0", nivelActual);
+			nivelActual = 0;
+		}
+		return mapa.introducciones [nivelActual];
+	}
 
 	void CargarRecursos () {
 		var textAsset = (TextAsset) Resources.Load("niveles");

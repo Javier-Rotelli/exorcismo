@@ -10,7 +10,4 @@ public class Mapa
 	[XmlArray("mapa")]
 	[XmlArrayItem("introduccion", typeof(Introduccion))]
 	public Introduccion[] introducciones;
-
-	Queue<Introduccion> _introducciones;
-
 }
