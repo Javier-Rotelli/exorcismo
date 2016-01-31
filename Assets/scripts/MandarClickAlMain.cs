@@ -8,7 +8,7 @@ public class MandarClickAlMain : MonoBehaviour, IPointerClickHandler {
 
 	public void OnPointerClick (PointerEventData eventData)
 	{
-		GetComponent<MainMapa> ().handleClick ();
+		GameObject.Find("Nivel").GetComponent<MainMapa> ().handleClick ();
 	}
 
 	#endregion

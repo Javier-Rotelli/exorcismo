@@ -13,6 +13,7 @@ public class ScrollearTexto : MonoBehaviour {
 
 	void Start() {
 		text = gameObject.GetComponentInChildren<Text> ();
+		text.text = "";
 	}
 
 	// Update is called once per frame
@@ -21,6 +22,10 @@ public class ScrollearTexto : MonoBehaviour {
 		if (_deltaAcumulado > delay && posActual < texto.Length) {
 			posActual++;
 			text.text = texto.Substring (0, posActual);
+		}
+
+		if (posActual >= texto.Length) {
+			this.enabled = false;
 		}
 	}
 }

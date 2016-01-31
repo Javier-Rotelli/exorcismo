@@ -185,10 +185,7 @@
 			Sacerdote, ayuda con tus ritos a Porcelio, el campesino insaciable.
 			
 			</textointro>
-			<texto>
-				<esp>Que El Señor, en su infinito poder</esp>
-				<eng>God, in its' infinite power</eng>
-			</texto>
+			
 			<solucion>
 				<slot>
 					<carta>ojo</carta>
@@ -200,6 +197,10 @@
 				<slot>
 					<carta orden="3">punio</carta>
 				</slot>
+				<texto>
+					<esp>Que El Señor, en su infinito poder</esp>
+					<eng>God, in its' infinite power</eng>
+				</texto>
 			</solucion>
 		</nivel>
 	</niveles>

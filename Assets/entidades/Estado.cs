@@ -11,8 +11,6 @@ public class Estado
 
 	public int nivelActual = 0;
 
-	public int nivel = 0;
-
 	private Estado (){
 		CargarRecursos ();
 	}
