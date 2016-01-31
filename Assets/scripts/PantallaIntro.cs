@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 public class PantallaIntro : MonoBehaviour, IPointerClickHandler {
 
 	protected CanvasGroup cg;
-	protected bool animating = false;
+	public bool animating = false;
 
 	AudioSource musica;
 

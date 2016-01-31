@@ -172,5 +172,166 @@ Aprende de esta palabras y fuera del calabozoa ve la luz del día </esp>
 				</texto>
 			</solucion>
 		</nivel>
+		<nivel numero="4">
+			<solucion>
+				<slot>
+					<carta>espiral</carta>
+				</slot>
+				<slot>
+					<carta>copa</carta>
+				</slot>
+				<slot>
+					<carta>anillo</carta>
+				</slot>
+				<texto>
+					<esp>Debes salir de este sinfin de valores rotos 
+Ya que nadie aprecia al que no admite su propia ignorancia</esp>
+				</texto>
+			</solucion>
+			<solucion>
+				<slot>
+					<carta>montana</carta>
+					<carta>sol</carta>
+				</slot>
+				<slot>
+					<carta>garra</carta>
+				</slot>
+				<slot>
+					<carta>calavera</carta>
+				</slot>
+				<texto>
+					<esp>En nombre de los mas grande te ordeno que te rindas a tu condicion mortal</esp>
+				</texto>
+			</solucion>
+			<solucion>
+				<slot>
+					<carta>libro</carta>
+				</slot>
+				<slot>
+					<carta>montana</carta>
+				</slot>
+				<slot>
+					<carta>espiral</carta>
+					<carta>anillo</carta>
+				</slot>
+				<texto>
+					<esp>Ya que hay un dios que es mas sabio, grande e infinitemante amoroso</esp>
+				</texto>
+			</solucion>
+		</nivel>
+		<nivel numero="5">
+			<solucion>
+				<slot>
+					<carta>reloj</carta>
+				</slot>
+				<slot>
+					<carta>copa</carta>
+				</slot>
+				<slot>
+					<carta>vela</carta>
+					<carta>sol</carta>
+				</slot>
+				<texto>
+					<esp>El tiempo apaga todas las llamas</esp>
+				</texto>
+			</solucion>
+			<solucion>
+				<slot>
+					<carta>camino</carta>
+				</slot>
+				<slot>
+					<carta>anillo</carta>
+					<carta>flor</carta>
+				</slot>
+				<slot>
+					<carta>montana</carta>
+					<carta>manoabierta</carta>
+				</slot>
+				<texto>
+					<esp>La decisión de vivir sabiamente esta dada por saber que la flama del amor
+es el mas grande de los actos del hombre</esp>
+				</texto>
+			</solucion>
+			<solucion>
+				<slot>
+					<carta>pluma</carta>
+				</slot>
+				<slot>
+					<carta>anillo</carta>
+				</slot>
+				<slot>
+					<carta>reloj</carta>
+					<carta>espiral</carta>
+				</slot>
+				<texto>
+					<esp>Con estas palabras encuentra la virtud y encuentra el amor para siempre</esp>
+				</texto>
+			</solucion>
+		</nivel>
+		<nivel numero="6">
+			<solucion>
+				<slot>
+					<carta>libro</carta>
+					<carta>ojo</carta>
+				</slot>
+				<slot>
+					<carta>garra</carta>
+				</slot>
+				<slot>
+					<carta>montana</carta>
+				</slot>
+				<texto>
+					<esp>La verdadera sabiduria, poder y grandeza</esp>
+				</texto>
+			</solucion>
+			<solucion>
+				<slot>
+					<carta>moneda</carta>
+					<carta>anillo</carta>
+				</slot>
+				<slot>
+					<carta>moneda</carta>
+					<carta>anillo</carta>
+				</slot>
+				<slot>
+					<carta>moneda</carta>
+					<carta>anillo</carta>
+				</slot>
+				<texto>
+					<esp>No yace ni en dinero, tesoro o lujo</esp>
+				</texto>
+			</solucion>
+			<solucion>
+				<slot>
+					<carta>circulo</carta>
+					<carta>sol</carta>
+				</slot>
+				<slot>
+					<carta>flor</carta>
+				</slot>
+				<slot>
+					<carta>manoabierta</carta>
+				</slot>
+				<texto>
+					<esp>El genuino aprecio de tus semejantes</esp>
+				</texto>
+			</solucion>
+			<solucion>
+				<slot>
+					<carta>montana</carta>
+				</slot>
+				<slot>
+					<carta>moneda</carta>
+					<carta>anillo</carta>
+				</slot>
+				<slot>
+					<carta>moneda</carta>
+					<carta>anillo</carta>
+				</slot>
+				<texto>
+					<esp>Es el mayor de los tesoros</esp>
+				</texto>
+			</solucion>
+		</nivel>
 	</niveles>
 </juego>
