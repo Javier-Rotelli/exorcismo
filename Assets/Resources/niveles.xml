@@ -31,53 +31,96 @@
 		<carta id="rueda" nombre="La Rueda" descripcion="representa La distancia, el transporte, el progreso y el viaje"></carta>
 	</cartas>
 	<mapa>
-		<introduccion>
-			<texto>
-				<esp>Padre, veo que ha podido ayudar a la gente de Avaritia,</esp>
-				<eng>Father, I see you've been able to help the people from Superbia,</eng>
-			</texto>
-			<texto>
-				<esp>pero la infelicidad de esta tierra es mucha...</esp>
-				<eng>the grief of this land is plenty...</eng>
-			</texto>	
-			
-			<texto>
-				<esp>Más al sur, en el pueblo de Invidia, hay otra persona que debes ver.</esp>
-				<eng>South, in the town of Avaritia, theres another person you should see.</eng>
-			</texto>
-			<texto>
-				<esp>Por favor ve y lleva tu rito de fe...</esp>
-				<eng>Please go and deliver the healing preach with you...</eng>
-			</texto>	
-			<texto>
-				<esp>Por favor ayudanos</esp>
-				<eng>Helps us !</eng>
-			</texto>
-		</introduccion>
-		<introduccion>
-			<texto>
-				<esp>Padre, SEGUNDO NIVEL</esp>
-				<eng>Father, I see you've been able to help the people from Superbia,</eng>
-			</texto>
-			<texto>
-				<esp>allalalalalalalal</esp>
-				<eng>the grief of this land is plenty...</eng>
-			</texto>	
-			
-			<texto>
-				<esp>Más al sur, en el pueblo de Invidia, hay otra persona que debes ver.</esp>
-				<eng>South, in the town of Avaritia, theres another person you should see.</eng>
-			</texto>
-			<texto>
-				<esp>Por favor ve y lleva tu rito de fe...</esp>
-				<eng>Please go and deliver the healing preach with you...</eng>
-			</texto>	
-			<texto>
-				<esp>Por favor ayudanos</esp>
-				<eng>Helps us !</eng>
-			</texto>
-		</introduccion>
-	</mapa>
+        <introduccion>
+            <texto>
+                <esp>
+                Al llegar al pueblo de Avaritia, la gente se agolpa y guía al sacerdote hasta la casa del enfermo. 
+                Este es un hombre muy rico que ahorra en todo y no es realmente dueño de nada.
+                Una pirámide pasaría por el ojo de una aguja antes de la salvación de este poseso. 
+                Murmullos y silencio acompañan el ingreso a la morada del doliente. 
+                </esp>
+            </texto>
+            </introduccion>
+        <introduccion>
+            <texto>
+                <esp>                    
+                Tu fama crece sacerdote, y en Invidia te necesitamos. Hay una mujer que no puede vivir sin codiciar. Desea todo lo que los demás.
+                Nada es suficiente y su afligido amante se arrepiente de haberla conocido. Su nombre es Flora. Pero no es bella por dentro.
+                Ayudanos sacerdote, propaga tu fe y recupera a Flora de las manos del demonio.
+                </esp>
+            </texto>
+</introduccion>
+        <introduccion>
+            <texto>
+                <esp>                                        
+                En el poblado de Luxus existe una joven.  
+                Famosa por la decapitación de muñecos de teatro infantil, sus dones han sido de interés de todo hombre, joven y viejo,
+                ¡y las mujeres de este pueblo están desesperadas!
+                Sacerdote, encuentra la combinación para regresar su virtud. 
+                Solo tu puedes hacerlo. 
+                </esp>
+            </texto>
+</introduccion>
+        <introduccion>
+            <texto>
+                <esp>                    
+                En las afueras de Voracitas, existe un campesino famoso. 
+                Glotón por sobre todas las cosas. Lo único que sacia sus ganas de comer... es comer.
+                Su familia lo ha abandonado, o quizás se la ha comido, no se sabe. 
+                Las leyes naturales no se aplican a este hombre, que evidentemente es más grande por dentro que por fuera.
+                Sacerdote, ayuda con tus ritos a Porcelio, el campesino insaciable.
+                </esp>
+            </texto>
+            </introduccion>
+        <introduccion>
+            <texto>
+                <esp>                                        
+                A los oídos de la hija de un noble del condado de Ira han llegado tus hazañas. 
+                
+                Irascible como pocos, el furibundo terrateniente se ha
+                desquiciado en su castillo a la espera de nuevas excusas para expresar su vehemencia.
+                
+                No mide sus palabras, y se expresa de forma soés, como si con puercos el hablara.
+                
+                La niña ha solicitado tu presencia para dar paz con tus palabras de fe a su padre malhablado.
+                </esp>
+            </texto>        
+
+</introduccion>
+        <introduccion>
+            <texto>
+                <esp>                                                            
+                En la ciudad de Superbia, una cocinera es dueña de todos los paladares. Tanta es su fama que ha expresado
+                "Nadie cuenta con la autoridad moral suficiente para mascar mi creación". 
+                
+                Es verdad que su cocina es famosa, si, es deliciosa, bueno ...
+                
+                Ayuda a Francesca, la cocinera soberbia, a evitar el orgullo, el peor ingrediente.
+                </esp>
+            </texto>    
+			</introduccion>
+        <introduccion>
+            
+            <texto>
+                <esp>                                                            
+                Tu leyenda se ha extendido, y al pueblo de Accidia a llegado. 
+                Como en las provincias del norte, este poblado de holgazanes
+                no es ejemplar. 
+                
+                Pero existe un niño famoso que jamás ha hecho nada por si mismo.
+                
+                Ni se lava ni se alimenta solo,
+                y su madre agotada, le ha pedido que se mude.
+                
+                Luis ya tiene 22 años. 
+                
+                Sacerdote, ayudanos en tu última tarea. 
+                
+                Con tu sabiduría extrae a Luis, el perezoso, de su penosa condición.    
+                </esp>
+            </texto>
+        </introduccion>
+    </mapa>
 	<niveles>
 		<nivel numero="0">
 			<textointro>

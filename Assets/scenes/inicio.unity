@@ -199,6 +199,8 @@ GameObject:
   - 224: {fileID: 171475535}
   - 222: {fileID: 171475537}
   - 114: {fileID: 171475536}
+  - 225: {fileID: 171475539}
+  - 114: {fileID: 171475538}
   m_Layer: 5
   m_Name: PantallaNegra
   m_TagString: Untagged
@@ -257,6 +259,28 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 171475534}
+--- !u!114 &171475538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 171475534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19983b311c202004baa7b4faffd11024, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!225 &171475539
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 171475534}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &262466707
 GameObject:
   m_ObjectHideFlags: 0
@@ -526,7 +550,7 @@ MonoBehaviour:
     \t\t\t\t<slot> \t\t\t\t\t<carta orden=3>punio</carta> \t\t\t\t</slot> \t\t\t</solucion>
     \t\t</nivel> \t</niveles> </juego>"
   posActual: 0
-  delay: 1
+  delay: 0.05
 --- !u!1 &538982234
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,12 +822,13 @@ AudioSource:
   m_GameObject: {fileID: 1071071341}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  OutputAudioMixerGroup: {fileID: 24300001, guid: e536283a0b9d4c346994063c34329940,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 5e1850490092fe743b6299bcde967222, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   Priority: 128
@@ -852,7 +877,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:

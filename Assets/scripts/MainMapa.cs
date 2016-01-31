@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class MainMapa : MonoBehaviour {
 	Estado estado;
@@ -17,11 +18,14 @@ public class MainMapa : MonoBehaviour {
 	{
 		var intro = estado.getIntroduccionActual ();
 		var scriptAnimar = viewportMapa.GetComponent<ScrollearTexto>();
+
+		if (scriptAnimar.enabled) {
+			return; //todavia estoy animando el texto anterior
+		}
+
 		if (textoActual < intro.textos.Length) {
-			if (scriptAnimar.enabled) {
-				return; //todavia estoy animando el texto anterior
-			}
-			scriptAnimar.texto = intro.textos [textoActual].esp;
+			
+			scriptAnimar.texto = intro.textos [textoActual].esp.Trim();
 			scriptAnimar.enabled = true;
 			textoActual++;
 		} 
@@ -33,6 +37,6 @@ public class MainMapa : MonoBehaviour {
 
 	void pasarABatalla ()
 	{
-		throw new System.NotImplementedException ();
+		SceneManager.LoadScene ("batalla");
 	}
 }

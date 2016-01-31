@@ -18,6 +18,7 @@ public class PantallaIntro : MonoBehaviour, IPointerClickHandler {
 		} else if (cg.alpha <= 0f) {
 			animating = false;
 			GameObject.Find ("Musica").GetComponent<AudioSource>().Play ();
+			this.enabled = false;
 		}
 	}
 

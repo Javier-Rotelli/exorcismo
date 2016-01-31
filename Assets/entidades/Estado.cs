@@ -29,7 +29,7 @@ public class Estado
 	}
 
 	public Introduccion getIntroduccionActual() {
-		if (niveles.nivel [nivelActual] != null) {
+		if (niveles.nivel [nivelActual] == null) {
 			Debug.LogFormat ("ERROR: se quiso cargar el nivel nro:{0} pero no existe. volviendo al nivel 0", nivelActual);
 			nivelActual = 0;
 		}
