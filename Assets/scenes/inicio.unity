@@ -315,8 +315,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -250.00008}
-  m_SizeDelta: {x: 1620, y: 300}
+  m_AnchoredPosition: {x: 0, y: -402}
+  m_SizeDelta: {x: 1620, y: 603}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &176293112
 MonoBehaviour:
@@ -408,7 +408,7 @@ CanvasGroup:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 222217372}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
@@ -1181,8 +1181,8 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -165}
-  m_SizeDelta: {x: -400, y: -630}
+  m_AnchoredPosition: {x: 0, y: -311}
+  m_SizeDelta: {x: -400, y: -785}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1100041470
 MonoBehaviour:
@@ -1205,10 +1205,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5e786cf255214ca4799b5ae829e4b65d, type: 3}
-    m_FontSize: 80
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 7
+    m_MinSize: 6
     m_MaxSize: 80
     m_Alignment: 1
     m_AlignByGeometry: 0

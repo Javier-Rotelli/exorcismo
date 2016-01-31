@@ -40,6 +40,7 @@ public class MainMapa : MonoBehaviour {
 			procesarFinal (textoGanaste, spriteGanaste);
 			break;
 		default:
+			handleClick ();
 			break;
 		}
 	}
