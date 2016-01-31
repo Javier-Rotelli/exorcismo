@@ -32,16 +32,18 @@ public class MainMapa : MonoBehaviour {
 
 	void Start() {
 		empezarNivelActual ();
+		camino.GetComponent<SpriteRenderer> ().sprite = caminos [estado.nivelActual];
 	}
 
 	void empezarNivelActual ()
 	{
-		camino.GetComponent<SpriteRenderer> ().sprite = caminos [estado.nivelActual];
+		
 		switch (estado.nivelActual) {
 		case -1:
 			procesarFinal (textoPerdiste, spritePerdiste);
 			estado.nivelActual = 0;
 			empezarNivelActual ();
+			musica.Play ();
 			break;
 		case 0:
 			pantallaIntro.GetComponent<CanvasGroup> ().alpha = 1;
@@ -52,7 +54,7 @@ public class MainMapa : MonoBehaviour {
 			musica.Play ();
 			break;
 		default:
-			
+			musica.Play ();
 			handleClick ();
 			break;
 		}
@@ -89,5 +91,12 @@ public class MainMapa : MonoBehaviour {
 		pantallaFin.GetComponentInChildren<Text> ().text = texto;
 		pantallaIntro.GetComponent<CanvasGroup> ().alpha = 1;
 		pantallaFin.GetComponent<PantallaIntro> ().enabled = true;
+	}
+
+	void Update() {
+		if(Input.GetKey(KeyCode.Alpha0))
+		{
+			estado.nivelActual++;
+		}
 	}
 }
