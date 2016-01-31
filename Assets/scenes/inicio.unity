@@ -85,79 +85,6 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &113293559
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 224: {fileID: 113293560}
-  - 222: {fileID: 113293562}
-  - 114: {fileID: 113293561}
-  m_Layer: 5
-  m_Name: TextoMapa
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &113293560
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 113293559}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 946503609}
-  m_RootOrder: 0
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -60, y: -30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &113293561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 113293559}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 
---- !u!222 &113293562
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 113293559}
 --- !u!1 &116961206
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,10 +130,10 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -241,7 +168,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 946503609}
+  - {fileID: 574640973}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_AnchorMin: {x: 0, y: 0}
@@ -249,6 +176,373 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &262466707
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 262466708}
+  - 222: {fileID: 262466710}
+  - 114: {fileID: 262466709}
+  m_Layer: 5
+  m_Name: TextoMapa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &262466708
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 262466707}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 765367748}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &262466709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 262466707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 5e786cf255214ca4799b5ae829e4b65d, type: 3}
+    m_FontSize: 70
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 100
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "<?xml version=\"1.0\" encoding\"utf-8\">\r\n<juego>\r\n\t<!-- Las cartas
+    son solo orientativas, no se cargan desde el xml -->\r\n\t<cartas>\r\n\t\t<carta
+    id=\"ojo\" nombre=\"El Ojo\" descripcion=\"representa a dios, al hijo de dios
+    y a la sabidur\xEDa\" ></carta>\r\n\t\t<carta id=\"anillo\" nombre=\"El Anillo\"
+    descripcion=\"representa el pacto, la esposa y la riqueza\"></carta>\r\n\t\t<carta
+    id=\"montana\" nombre=\"La Monta\xF1a\" descripcion=\"representa algo muy grande,
+    interminable, inamovible\"></carta>\r\n\t\t<carta id=\"pluma\" nombre=\"La Pluma\"
+    descripcion=\"representa lo liviano, lo ef\xEDmero\"></carta>\r\n\t\t<carta id=\"camino\"
+    nombre=\"El Camino Bifurcado\" descripcion=\"representa la decisi\xF3n, la duda
+    o las opciones\"></carta>\r\n\t\t<carta id=\"espiral\" nombre=\"La Espiral\" descripcion=\"representa
+    el la falta de direccion, estar perdido o el laberinto\"></carta>\r\n\t\t<carta
+    id=\"hoja\" nombre=\"La Hoja\" descripcion=\"representa la naturaleza, el oto\xF1o
+    y la vejez \"></carta>\r\n\t\t<carta id=\"sol\" nombre=\"El Sol\" descripcion=\"representa
+    a dios, el verano, el calor, el fuego, la pureza, el d\xEDa y la luz\"></carta>\r\n\t\t<carta
+    id=\"cascada\" nombre=\"La Cascada\" descripcion=\"representa la naturaleza, fluir
+    las cosas, el fin, la ca\xEDda\"></carta>\r\n\t\t<carta id=\"flor\" nombre=\"La
+    Flor\" descripcion=\"representa la primavera, la naturaleza, la mujer, el sexo,
+    lo hermoso\"></carta>\r\n\t\t<carta id=\"circulo\" nombre=\"El Circulo\" descripcion=\"representa
+    la perfecci\xF3n, la continuidad, lo completo y el ciclo\"></carta>\r\n\t\t<carta
+    id=\"reloj\" nombre=\"El Reloj\" descripcion=\"representa el el tiempo, algo finito\"></carta>\r\n\t\t<carta
+    id=\"calavera\" nombre=\"El Calavera\" descripcion=\"representa La muerte, el
+    hambre, la peste\"></carta>\r\n\t\t<carta id=\"libro\" nombre=\"El Libro\" descripcion=\"representa
+    la sabidur\xEDa y la experiencia\"></carta>\r\n\t\t<carta id=\"nieve\" nombre=\"El
+    Copo de Nieve\" descripcion=\"representa el fr\xEDo, el invierno, lo hermoso pero
+    triste\"></carta>\r\n\t\t<carta id=\"copa\" nombre=\"La Copa Rota\" descripcion=\"representa
+    lo inconcluso, lo fallado, lo vac\xEDo, lo infeliz, el aborto y la p\xE9rdida\"></carta>\r\n\t\t<carta
+    id=\"osamenta\" nombre=\"Osamenta de Ciervo\" descripcion=\"representa lo antiguo,
+    lo finito, la muerte, la enfermedad, el invierno, el respeto\"></carta>\r\n\t\t<carta
+    id=\"lagrima\" nombre=\"El Lagrima\" descripcion=\"representa la sangre, la perdida
+    y tristeza\"></carta>\r\n\t\t<carta id=\"moneda\" nombre=\"La Moneda\" descripcion=\"representa
+    el tesoro, la riqueza y la avaricia\"></carta>\r\n\t\t<carta id=\"pez\" nombre=\"El
+    Pez\" descripcion=\"representa el hambre, la comida, el mar, lo vasto y la inteligencia\"></carta>\r\n\t\t<carta
+    id=\"manoabierta\" nombre=\"La Mano Abierta\" descripcion=\"representa el el hombre,
+    los cinco, la paz, la honestidad\"></carta>\r\n\t\t<carta id=\"manoentrega\" nombre=\"Las
+    Manos Expuestas\" descripcion=\"representan honestidad, amor puro, pureza, entrega
+    y caridad\"></carta>\r\n\t\t<carta id=\"vela\" nombre=\"La Vela Al Viento\" descripcion=\"representa
+    el fuego, la noche, el viento, la soledad y la adversidad\"></carta>\r\n\t\t<carta
+    id=\"punio\" nombre=\"El Pu\xF1o\" descripcion=\"representa la ira, la fuerza,
+    el dolor\"></carta>\r\n\t\t<carta id=\"diente\" nombre=\"El Diente\" descripcion=\"representa
+    el hambre, la enfermedad y la vejez\"></carta>\r\n\t\t<carta id=\"herradura\"
+    nombre=\"El Herradura\" descripcion=\"representa la suerte, lo animal, el caballo
+    y el transporte\"></carta>\r\n\t\t<carta id=\"rueda\" nombre=\"La Rueda\" descripcion=\"representa
+    La distancia, el transporte, el progreso y el viaje\"></carta>\r\n\t</cartas>\r\n\t<mapa>\r\n\t\t<texto
+    nivel=\"0\" orden=\"0\">\r\n\t\t\t<esp>Padre, veo que ha podido ayudar a la gente
+    de Avaritia,</esp>\r\n\t\t\t<eng>Father, I see you've been able to help the people
+    from Superbia,</eng>\r\n\t\t</texto>\r\n\t\t<texto nivel=\"0\" orden=\"1\">\r\n\t\t\t<esp>pero
+    la infelicidad de esta tierra es mucha...</esp>\r\n\t\t\t<eng>the grief of this
+    land is plenty...</eng>\r\n\t\t</texto>\t\r\n\t\t\r\n\t\t<texto nivel=\"0\" orden=\"2\">\r\n\t\t\t<esp>M\xE1s
+    al sur, en el pueblo de Invidia, hay otra persona que debes ver.</esp>\r\n\t\t\t<eng>South,
+    in the town of Avaritia, theres another person you should see.</eng>\r\n\t\t</texto>\r\n\t\t<texto
+    nivel=\"0\" orden=\"3\">\r\n\t\t\t<esp>Por favor ve y lleva tu rito de fe...</esp>\r\n\t\t\t<eng>Please
+    go and deliver the healing preach with you...</eng>\r\n\t\t</texto>\t\r\n\t\t\r\n\t\t<texto
+    nivel=\"0\" orden=\"\">\r\n\t\t\t<esp>Por favor ayudanos</esp>\r\n\t\t\t<eng>Helps
+    us !</eng>\r\n\t\t</texto>\t\r\n\t</mapa>\r\n\t<niveles>\r\n\t\t<nivel numero=\"0\">\r\n\t\t\t<textointro>\r\n\t\t\t\r\n\t\t\tHace
+    unos mil a\xF1os, en un mundo en donde la ignorancia y superstici\xF3n eran por
+    sobre la sabidur\xEDa, un hombre de fe caminaba los pueblos en b\xFAsqueda de
+    posesos. Los posesos eran personas que sucumb\xEDan a los deseos indignos de la
+    carne y el demonio.\r\n\t\t\t\r\n\t\t\tEsta es la historia de los 7 pueblos. Los
+    7 lugares donde los hombres se entregaban a todas las formas capitales de la indignidad.\r\n\t\t\t\r\n\t\t\t//\r\n\t\t\t\r\n\t\t\tAl
+    llegar al pueblo de Avaritia, la gente se agolpa y gu\xEDa al sacerdote hasta
+    la casa del enfermo. \r\n\t\t\t\r\n\t\t\tEste es un hombre muy rico que ahorra
+    en todo y no es realmente due\xF1o de nada.\r\n\t\t\tUna pir\xE1mide pasar\xEDa
+    por el ojo de una aguja antes de la salvaci\xF3n de este poseso. \r\n\r\n\t\t\tMurmullos
+    y silencio acompa\xF1an el ingreso a la morada del doliente. \r\n\t\t\t\r\n\t\t\t</textointro>\r\n\t\t\t<texto>\r\n\t\t\t\t<esp>Que
+    El Se\xF1or, en su infinito poder</esp>\r\n\t\t\t\t<eng>God, in its' infinite
+    power</eng>\r\n\t\t\t</texto>\r\n\t\t\t<solucion>\r\n\t\t\t\t<slot>\r\n\t\t\t\t\t<carta>ojo</carta>\r\n\t\t\t\t\t<carta>sol</carta>\r\n\t\t\t\t</slot>\r\n\t\t\t\t<slot>\r\n\t\t\t\t\t<carta
+    orden=2>espiral</carta>\r\n\t\t\t\t</slot>\r\n\t\t\t\t<slot>\r\n\t\t\t\t\t<carta
+    orden=3>punio</carta>\r\n\t\t\t\t</slot>\r\n\t\t\t</solucion>\r\n\t\t</nivel>\t\r\n\r\n\t\t<nivel
+    numero=\"1\">\r\n\t\t\t<textointro>\r\n\t\t\t\r\n\t\t\tTu fama crece sacerdote,
+    y en Invidia te necesitamos. Hay una mujer que no puede vivir sin codiciar. Desea
+    todo lo que los dem\xE1s.\r\n\t\t\tNada es suficiente y su afligido amante se
+    arrepiente de haberla conocido. Su nombre es Flora. Pero no es bella por dentro.\r\n\t\t\t\r\n\t\t\tAyudanos
+    sacerdote, propaga tu fe y recupera a Flora de las manos del demonio.\r\n\t\t\t\r\n\t\t\t</textointro>\r\n\t\t\t<texto>\r\n\t\t\t\t<esp>Que
+    El Se\xF1or, en su infinito poder</esp>\r\n\t\t\t\t<eng>God, in its' infinite
+    power</eng>\r\n\t\t\t\t<solucion>\r\n\t\t\t\t\t<slot>\r\n\t\t\t\t\t\t<carta>ojo</carta>\r\n\t\t\t\t\t\t<carta>sol</carta>\r\n\t\t\t\t\t</slot>\r\n\t\t\t\t\t<slot>\r\n\t\t\t\t\t\t<carta
+    orden=2>espiral</carta>\r\n\t\t\t\t\t</slot>\r\n\t\t\t\t\t<slot>\r\n\t\t\t\t\t\t<carta
+    orden=3>punio</carta>\r\n\t\t\t\t\t</slot>\r\n\t\t\t\t</solucion>\r\n\t\t\t</texto>\r\n\t\t</nivel>\t\r\n\r\n\t\t<nivel
+    numero=\"2\">\r\n\t\t\t<textointro>\r\n\t\t\t\r\n\t\t\tEn el poblado de Luxus
+    existe una joven.  \r\n\t\t\t\r\n\t\t\tFamosa por la decapitaci\xF3n de mu\xF1ecos
+    de teatro infantil, sus dones han sido de inter\xE9s de todo hombre, joven y viejo,\r\n\t\t\t\xA1y
+    las mujeres de este pueblo est\xE1n desesperadas!\r\n\t\t\t\r\n\t\t\tSacerdote,
+    encuentra la combinaci\xF3n para regresar su virtud. \r\n\t\t\tSolo tu puedes
+    hacerlo. \r\n\t\t\t\r\n\t\t\t</textointro>\r\n\t\t\t<texto>\r\n\t\t\t\t<esp>Que
+    El Se\xF1or, en su infinito poder</esp>\r\n\t\t\t\t<eng>God, in its' infinite
+    power</eng>\r\n\t\t\t</texto>\r\n\t\t\t<solucion>\r\n\t\t\t\t<slot>\r\n\t\t\t\t\t\t<carta>ojo</carta>\r\n\t\t\t\t\t\t<carta>sol</carta>\r\n\t\t\t\t\t</slot>\r\n\t\t\t\t\t<slot>\r\n\t\t\t\t\t\t<carta
+    orden=2>espiral</carta>\r\n\t\t\t\t\t</slot>\r\n\t\t\t\t\t<slot>\r\n\t\t\t\t\t\t<carta
+    orden=3>punio</carta>\r\n\t\t\t\t\t</slot>\r\n\t\t\t</solucion>\r\n\r\n\t\t</nivel>\r\n\r\n\t\t<nivel
+    numero=\"3\">\r\n\t\t\t<textointro>\r\n\t\t\t\r\n\t\t\tEn las afueras de Voracitas,
+    existe un campesino famoso. \r\n\t\t\t\r\n\t\t\tGlot\xF3n por sobre todas las
+    cosas. Lo \xFAnico que sacia sus ganas de comer... es comer.\r\n\t\t\tSu familia
+    lo ha abandonado, o quiz\xE1s se la ha comido, no se sabe. \r\n\t\t\t\r\n\t\t\tLas
+    leyes naturales no se aplican a este hombre, que evidentemente es m\xE1s grande
+    por dentro que por fuera.\r\n\t\t\t\r\n\t\t\tSacerdote, ayuda con tus ritos a
+    Porcelio, el campesino insaciable.\r\n\t\t\t\r\n\t\t\t</textointro>\r\n\t\t\t<texto>\r\n\t\t\t\t<esp>Que
+    El Se\xF1or, en su infinito poder</esp>\r\n\t\t\t\t<eng>God, in its' infinite
+    power</eng>\r\n\t\t\t</texto>\r\n\t\t\t<solucion>\r\n\t\t\t\t<slot>\r\n\t\t\t\t\t<carta>ojo</carta>\r\n\t\t\t\t\t<carta>sol</carta>\r\n\t\t\t\t</slot>\r\n\t\t\t\t<slot>\r\n\t\t\t\t\t<carta
+    orden=2>espiral</carta>\r\n\t\t\t\t</slot>\r\n\t\t\t\t<slot>\r\n\t\t\t\t\t<carta
+    orden=3>punio</carta>\r\n\t\t\t\t</slot>\r\n\t\t\t</solucion>\r\n\t\t</nivel>\r\n\t</niveles>\r\n</juego>"
+--- !u!222 &262466710
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 262466707}
+--- !u!1 &521416243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 521416244}
+  - 114: {fileID: 521416247}
+  - 222: {fileID: 521416246}
+  - 114: {fileID: 521416245}
+  - 114: {fileID: 521416248}
+  m_Layer: 5
+  m_Name: Viewport
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &521416244
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 521416243}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 765367748}
+  m_Father: {fileID: 574640973}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 30, y: -17}
+  m_SizeDelta: {x: -60, y: -34}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &521416245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 521416243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &521416246
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 521416243}
+--- !u!114 &521416247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 521416243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1200242548, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 0
+--- !u!114 &521416248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 521416243}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2b39b9379564943aa449ae6e773ce2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  texto: "<?xml version=\"1.0\" encoding\"utf-8\"> <juego> \t<!-- Las cartas son solo
+    orientativas, no se cargan desde el xml --> \t<cartas> \t\t<carta id=\"ojo\" nombre=\"El
+    Ojo\" descripcion=\"representa a dios, al hijo de dios y a la sabidur\xEDa\" ></carta>
+    \t\t<carta id=\"anillo\" nombre=\"El Anillo\" descripcion=\"representa el pacto,
+    la esposa y la riqueza\"></carta> \t\t<carta id=\"montana\" nombre=\"La Monta\xF1a\"
+    descripcion=\"representa algo muy grande, interminable, inamovible\"></carta>
+    \t\t<carta id=\"pluma\" nombre=\"La Pluma\" descripcion=\"representa lo liviano,
+    lo ef\xEDmero\"></carta> \t\t<carta id=\"camino\" nombre=\"El Camino Bifurcado\"
+    descripcion=\"representa la decisi\xF3n, la duda o las opciones\"></carta> \t\t<carta
+    id=\"espiral\" nombre=\"La Espiral\" descripcion=\"representa el la falta de direccion,
+    estar perdido o el laberinto\"></carta> \t\t<carta id=\"hoja\" nombre=\"La Hoja\"
+    descripcion=\"representa la naturaleza, el oto\xF1o y la vejez \"></carta> \t\t<carta
+    id=\"sol\" nombre=\"El Sol\" descripcion=\"representa a dios, el verano, el calor,
+    el fuego, la pureza, el d\xEDa y la luz\"></carta> \t\t<carta id=\"cascada\" nombre=\"La
+    Cascada\" descripcion=\"representa la naturaleza, fluir las cosas, el fin, la
+    ca\xEDda\"></carta> \t\t<carta id=\"flor\" nombre=\"La Flor\" descripcion=\"representa
+    la primavera, la naturaleza, la mujer, el sexo, lo hermoso\"></carta> \t\t<carta
+    id=\"circulo\" nombre=\"El Circulo\" descripcion=\"representa la perfecci\xF3n,
+    la continuidad, lo completo y el ciclo\"></carta> \t\t<carta id=\"reloj\" nombre=\"El
+    Reloj\" descripcion=\"representa el el tiempo, algo finito\"></carta> \t\t<carta
+    id=\"calavera\" nombre=\"El Calavera\" descripcion=\"representa La muerte, el
+    hambre, la peste\"></carta> \t\t<carta id=\"libro\" nombre=\"El Libro\" descripcion=\"representa
+    la sabidur\xEDa y la experiencia\"></carta> \t\t<carta id=\"nieve\" nombre=\"El
+    Copo de Nieve\" descripcion=\"representa el fr\xEDo, el invierno, lo hermoso pero
+    triste\"></carta> \t\t<carta id=\"copa\" nombre=\"La Copa Rota\" descripcion=\"representa
+    lo inconcluso, lo fallado, lo vac\xEDo, lo infeliz, el aborto y la p\xE9rdida\"></carta>
+    \t\t<carta id=\"osamenta\" nombre=\"Osamenta de Ciervo\" descripcion=\"representa
+    lo antiguo, lo finito, la muerte, la enfermedad, el invierno, el respeto\"></carta>
+    \t\t<carta id=\"lagrima\" nombre=\"El Lagrima\" descripcion=\"representa la sangre,
+    la perdida y tristeza\"></carta> \t\t<carta id=\"moneda\" nombre=\"La Moneda\"
+    descripcion=\"representa el tesoro, la riqueza y la avaricia\"></carta> \t\t<carta
+    id=\"pez\" nombre=\"El Pez\" descripcion=\"representa el hambre, la comida, el
+    mar, lo vasto y la inteligencia\"></carta> \t\t<carta id=\"manoabierta\" nombre=\"La
+    Mano Abierta\" descripcion=\"representa el el hombre, los cinco, la paz, la honestidad\"></carta>
+    \t\t<carta id=\"manoentrega\" nombre=\"Las Manos Expuestas\" descripcion=\"representan
+    honestidad, amor puro, pureza, entrega y caridad\"></carta> \t\t<carta id=\"vela\"
+    nombre=\"La Vela Al Viento\" descripcion=\"representa el fuego, la noche, el viento,
+    la soledad y la adversidad\"></carta> \t\t<carta id=\"punio\" nombre=\"El Pu\xF1o\"
+    descripcion=\"representa la ira, la fuerza, el dolor\"></carta> \t\t<carta id=\"diente\"
+    nombre=\"El Diente\" descripcion=\"representa el hambre, la enfermedad y la vejez\"></carta>
+    \t\t<carta id=\"herradura\" nombre=\"El Herradura\" descripcion=\"representa la
+    suerte, lo animal, el caballo y el transporte\"></carta> \t\t<carta id=\"rueda\"
+    nombre=\"La Rueda\" descripcion=\"representa La distancia, el transporte, el progreso
+    y el viaje\"></carta> \t</cartas> \t<mapa> \t\t<texto nivel=\"0\" orden=\"0\">
+    \t\t\t<esp>Padre, veo que ha podido ayudar a la gente de Avaritia,</esp> \t\t\t<eng>Father,
+    I see you've been able to help the people from Superbia,</eng> \t\t</texto> \t\t<texto
+    nivel=\"0\" orden=\"1\"> \t\t\t<esp>pero la infelicidad de esta tierra es mucha...</esp>
+    \t\t\t<eng>the grief of this land is plenty...</eng> \t\t</texto>\t \t\t \t\t<texto
+    nivel=\"0\" orden=\"2\"> \t\t\t<esp>M\xE1s al sur, en el pueblo de Invidia, hay
+    otra persona que debes ver.</esp> \t\t\t<eng>South, in the town of Avaritia, theres
+    another person you should see.</eng> \t\t</texto> \t\t<texto nivel=\"0\" orden=\"3\">
+    \t\t\t<esp>Por favor ve y lleva tu rito de fe...</esp> \t\t\t<eng>Please go and
+    deliver the healing preach with you...</eng> \t\t</texto>\t \t\t \t\t<texto nivel=\"0\"
+    orden=\"\"> \t\t\t<esp>Por favor ayudanos</esp> \t\t\t<eng>Helps us !</eng> \t\t</texto>\t
+    \t</mapa> \t<niveles> \t\t<nivel numero=\"0\"> \t\t\t<textointro> \t\t\t \t\t\tHace
+    unos mil a\xF1os, en un mundo en donde la ignorancia y superstici\xF3n eran por
+    sobre la sabidur\xEDa, un hombre de fe caminaba los pueblos en b\xFAsqueda de
+    posesos. Los posesos eran personas que sucumb\xEDan a los deseos indignos de la
+    carne y el demonio. \t\t\t \t\t\tEsta es la historia de los 7 pueblos. Los 7 lugares
+    donde los hombres se entregaban a todas las formas capitales de la indignidad.
+    \t\t\t \t\t\t// \t\t\t \t\t\tAl llegar al pueblo de Avaritia, la gente se agolpa
+    y gu\xEDa al sacerdote hasta la casa del enfermo.  \t\t\t \t\t\tEste es un hombre
+    muy rico que ahorra en todo y no es realmente due\xF1o de nada. \t\t\tUna pir\xE1mide
+    pasar\xEDa por el ojo de una aguja antes de la salvaci\xF3n de este poseso.   \t\t\tMurmullos
+    y silencio acompa\xF1an el ingreso a la morada del doliente.  \t\t\t \t\t\t</textointro>
+    \t\t\t<texto> \t\t\t\t<esp>Que El Se\xF1or, en su infinito poder</esp> \t\t\t\t<eng>God,
+    in its' infinite power</eng> \t\t\t</texto> \t\t\t<solucion> \t\t\t\t<slot> \t\t\t\t\t<carta>ojo</carta>
+    \t\t\t\t\t<carta>sol</carta> \t\t\t\t</slot> \t\t\t\t<slot> \t\t\t\t\t<carta orden=2>espiral</carta>
+    \t\t\t\t</slot> \t\t\t\t<slot> \t\t\t\t\t<carta orden=3>punio</carta> \t\t\t\t</slot>
+    \t\t\t</solucion> \t\t</nivel>\t  \t\t<nivel numero=\"1\"> \t\t\t<textointro>
+    \t\t\t \t\t\tTu fama crece sacerdote, y en Invidia te necesitamos. Hay una mujer
+    que no puede vivir sin codiciar. Desea todo lo que los dem\xE1s. \t\t\tNada es
+    suficiente y su afligido amante se arrepiente de haberla conocido. Su nombre es
+    Flora. Pero no es bella por dentro. \t\t\t \t\t\tAyudanos sacerdote, propaga tu
+    fe y recupera a Flora de las manos del demonio. \t\t\t \t\t\t</textointro> \t\t\t<texto>
+    \t\t\t\t<esp>Que El Se\xF1or, en su infinito poder</esp> \t\t\t\t<eng>God, in
+    its' infinite power</eng> \t\t\t\t<solucion> \t\t\t\t\t<slot> \t\t\t\t\t\t<carta>ojo</carta>
+    \t\t\t\t\t\t<carta>sol</carta> \t\t\t\t\t</slot> \t\t\t\t\t<slot> \t\t\t\t\t\t<carta
+    orden=2>espiral</carta> \t\t\t\t\t</slot> \t\t\t\t\t<slot> \t\t\t\t\t\t<carta
+    orden=3>punio</carta> \t\t\t\t\t</slot> \t\t\t\t</solucion> \t\t\t</texto> \t\t</nivel>\t
+    \ \t\t<nivel numero=\"2\"> \t\t\t<textointro> \t\t\t \t\t\tEn el poblado de Luxus
+    existe una joven.   \t\t\t \t\t\tFamosa por la decapitaci\xF3n de mu\xF1ecos de
+    teatro infantil, sus dones han sido de inter\xE9s de todo hombre, joven y viejo,
+    \t\t\t\xA1y las mujeres de este pueblo est\xE1n desesperadas! \t\t\t \t\t\tSacerdote,
+    encuentra la combinaci\xF3n para regresar su virtud.  \t\t\tSolo tu puedes hacerlo.
+    \ \t\t\t \t\t\t</textointro> \t\t\t<texto> \t\t\t\t<esp>Que El Se\xF1or, en su
+    infinito poder</esp> \t\t\t\t<eng>God, in its' infinite power</eng> \t\t\t</texto>
+    \t\t\t<solucion> \t\t\t\t<slot> \t\t\t\t\t\t<carta>ojo</carta> \t\t\t\t\t\t<carta>sol</carta>
+    \t\t\t\t\t</slot> \t\t\t\t\t<slot> \t\t\t\t\t\t<carta orden=2>espiral</carta>
+    \t\t\t\t\t</slot> \t\t\t\t\t<slot> \t\t\t\t\t\t<carta orden=3>punio</carta> \t\t\t\t\t</slot>
+    \t\t\t</solucion>  \t\t</nivel>  \t\t<nivel numero=\"3\"> \t\t\t<textointro> \t\t\t
+    \t\t\tEn las afueras de Voracitas, existe un campesino famoso.  \t\t\t \t\t\tGlot\xF3n
+    por sobre todas las cosas. Lo \xFAnico que sacia sus ganas de comer... es comer.
+    \t\t\tSu familia lo ha abandonado, o quiz\xE1s se la ha comido, no se sabe.  \t\t\t
+    \t\t\tLas leyes naturales no se aplican a este hombre, que evidentemente es m\xE1s
+    grande por dentro que por fuera. \t\t\t \t\t\tSacerdote, ayuda con tus ritos a
+    Porcelio, el campesino insaciable. \t\t\t \t\t\t</textointro> \t\t\t<texto> \t\t\t\t<esp>Que
+    El Se\xF1or, en su infinito poder</esp> \t\t\t\t<eng>God, in its' infinite power</eng>
+    \t\t\t</texto> \t\t\t<solucion> \t\t\t\t<slot> \t\t\t\t\t<carta>ojo</carta> \t\t\t\t\t<carta>sol</carta>
+    \t\t\t\t</slot> \t\t\t\t<slot> \t\t\t\t\t<carta orden=2>espiral</carta> \t\t\t\t</slot>
+    \t\t\t\t<slot> \t\t\t\t\t<carta orden=3>punio</carta> \t\t\t\t</slot> \t\t\t</solucion>
+    \t\t</nivel> \t</niveles> </juego>"
+  posActual: 0
+  delay: 1
 --- !u!1 &538982234
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,62 +629,62 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!1 &946503608
+--- !u!1 &574640972
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 224: {fileID: 946503609}
-  - 222: {fileID: 946503611}
-  - 114: {fileID: 946503610}
-  - 114: {fileID: 946503612}
+  - 224: {fileID: 574640973}
+  - 114: {fileID: 574640976}
+  - 222: {fileID: 574640975}
+  - 114: {fileID: 574640974}
   m_Layer: 5
-  m_Name: FondoTexto
+  m_Name: Scroll View
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &946503609
+--- !u!224 &574640973
 RectTransform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 946503608}
+  m_GameObject: {fileID: 574640972}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 113293560}
+  - {fileID: 521416244}
   m_Father: {fileID: 116961210}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 50}
-  m_SizeDelta: {x: 546, y: 90}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -312}
+  m_SizeDelta: {x: -90, y: -684}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &946503610
+--- !u!114 &574640974
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 946503608}
+  m_GameObject: {fileID: 574640972}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9215687, g: 0.9215687, b: 0.9215687, a: 0.8}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.8}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -398,23 +692,76 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!222 &946503611
+--- !u!222 &574640975
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 946503608}
---- !u!114 &946503612
+  m_GameObject: {fileID: 574640972}
+--- !u!114 &574640976
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 946503608}
+  m_GameObject: {fileID: 574640972}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -146154839, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Script: {fileID: 1367256648, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Content: {fileID: 765367748}
+  m_Horizontal: 0
+  m_Vertical: 1
+  m_MovementType: 1
+  m_Elasticity: 0.1
+  m_Inertia: 1
+  m_DecelerationRate: 0.135
+  m_ScrollSensitivity: 1
+  m_Viewport: {fileID: 521416244}
+  m_HorizontalScrollbar: {fileID: 0}
+  m_VerticalScrollbar: {fileID: 0}
+  m_HorizontalScrollbarVisibility: 2
+  m_VerticalScrollbarVisibility: 2
+  m_HorizontalScrollbarSpacing: -3
+  m_VerticalScrollbarSpacing: -3
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.ScrollRect+ScrollRectEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!1 &765367747
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 765367748}
+  m_Layer: 5
+  m_Name: Content
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &765367748
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 765367747}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 262466708}
+  m_Father: {fileID: 521416244}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 900}
+  m_Pivot: {x: 0, y: 1}
 --- !u!1 &950432435
 GameObject:
   m_ObjectHideFlags: 0
@@ -443,45 +790,48 @@ Transform:
   - {fileID: 1661023288}
   m_Father: {fileID: 0}
   m_RootOrder: 1
---- !u!1 &1439027985
-GameObject:
+--- !u!1001 &1393745637
+Prefab:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1439027987}
-  - 114: {fileID: 1439027986}
-  m_Layer: 0
-  m_Name: Nivel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1439027986
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1439027985}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c01dc5b94edfcb84887f0d17afa18896, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1439027987
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1439027985}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 303, y: 170.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 443218, guid: b0eb1f041251bf841a02be2c2855feb5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 303
+      objectReference: {fileID: 0}
+    - target: {fileID: 443218, guid: b0eb1f041251bf841a02be2c2855feb5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 170.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 443218, guid: b0eb1f041251bf841a02be2c2855feb5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 443218, guid: b0eb1f041251bf841a02be2c2855feb5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 443218, guid: b0eb1f041251bf841a02be2c2855feb5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 443218, guid: b0eb1f041251bf841a02be2c2855feb5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 443218, guid: b0eb1f041251bf841a02be2c2855feb5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 443218, guid: b0eb1f041251bf841a02be2c2855feb5, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b0eb1f041251bf841a02be2c2855feb5, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1661023287
 GameObject:
   m_ObjectHideFlags: 0
@@ -600,4 +950,4 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4

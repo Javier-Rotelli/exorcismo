@@ -7,12 +7,14 @@ public class MainMapa : MonoBehaviour {
 
 	void Awake () {
 		estado = Estado.Instance;
-
-		Debug.Log(estado.mapa.introducciones[0].textos[0].esp);
 	}
 
-	
-	// Update is called once per frame
-	void Update () {
+	public void handleClick ()
+	{
+		if (estado.niveles.nivel [estado.nivelActual] != null) {
+			Debug.LogFormat ("ERROR: se quiso cargar el nivel nro:{0} pero no existe. volviendo al nivel 0", estado.nivelActual);
+			estado.nivelActual = 0;
+		}
+
 	}
 }

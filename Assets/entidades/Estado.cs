@@ -9,6 +9,10 @@ public class Estado
 	public Niveles niveles;
 	public Mapa mapa;
 
+	public int nivelActual = 0;
+
+	public int nivel = 0;
+
 	private Estado (){
 		CargarRecursos ();
 	}
@@ -25,6 +29,9 @@ public class Estado
 			return _singleton;
 		}
 	}
+
+	/*public Introduccion getIntroduccionActual() {
+	}*/
 
 	void CargarRecursos () {
 		var textAsset = (TextAsset) Resources.Load("niveles");
