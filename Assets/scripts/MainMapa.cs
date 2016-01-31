@@ -11,20 +11,23 @@ public class MainMapa : MonoBehaviour {
 
 	GameObject viewportMapa;
 	GameObject pantallaIntro;
-	GameObject fondo;
+	GameObject camino;
 	GameObject pantallaFin;
 
 	const string textoPerdiste = "Sacerdote... has fallado.\n\n Pero aún creemos en ti.\n Intentalo nuevamente, eres nuestra unica esperanza";
 	const string textoGanaste = "Sacerdote... has fallado.\n\n Pero aún creemos en ti.\n Intentalo nuevamente, eres nuestra unica esperanza";
 	public Sprite spritePerdiste;
 	public Sprite spriteGanaste;
+	public Sprite[] caminos;
+	AudioSource musica;
 
 	void Awake () {
 		estado = Estado.Instance;
 		viewportMapa = GameObject.Find ("ViewportMapa");
 		pantallaIntro = GameObject.Find ("PantallaIntro");
 		pantallaFin = GameObject.Find ("PantallaPerdiste");
-		fondo = GameObject.Find ("Fondo");
+		camino = GameObject.Find ("camino");
+		musica = GameObject.Find ("MusicaMapa").GetComponent<AudioSource> ();
 	}
 
 	void Start() {
@@ -33,6 +36,7 @@ public class MainMapa : MonoBehaviour {
 
 	void empezarNivelActual ()
 	{
+		camino.GetComponent<SpriteRenderer> ().sprite = caminos [estado.nivelActual];
 		switch (estado.nivelActual) {
 		case -1:
 			procesarFinal (textoPerdiste, spritePerdiste);
@@ -45,8 +49,10 @@ public class MainMapa : MonoBehaviour {
 			break;
 		case 7:
 			procesarFinal (textoGanaste, spriteGanaste);
+			musica.Play ();
 			break;
 		default:
+			
 			handleClick ();
 			break;
 		}
